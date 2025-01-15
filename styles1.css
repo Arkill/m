@@ -299,7 +299,8 @@ hr {
     margin: 2rem 0rem;
     font-family: "Source Sans 3", sans-serif;
     height: 50%;
-    margin-top: 32% !important;
+    margin-left: 10px;
+    margin-top: 20% !important;
 }
 
 .social-icon {
@@ -1013,16 +1014,19 @@ hr {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex: 1 1 calc(33.333% - 20px); /* Ocupa 1/3 do espaço em telas grandes */
-    max-width: 300px; /* Limita a largura máxima */
-    min-width: 200px; /* Define uma largura mínima */
-    height: 200px; /* Define a altura fixa */
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: 300px;
+    min-width: 200px;
+    height: 200px;
+    margin: 10px 20px; 
     display: flex;
-    flex-direction: column; /* Garante alinhamento vertical do conteúdo */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
     text-align: center;
+    transform: translateX(-20px);
 }
+
 
 /* Títulos dos itens de status */
 .status-item h3 {
